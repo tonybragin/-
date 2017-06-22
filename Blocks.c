@@ -39,7 +39,7 @@ int main()
 
 	for(int i = 0; i < count; i++) free(p[i]);
     
-    //malloc_stats();
+    malloc_stats();
 
     return 0;
 }
